@@ -1,4 +1,3 @@
-//import { useState } from 'react'
 import './App.css';
 import { Outlet } from 'react-router-dom';
 import Nav from './components/Nav';
@@ -13,3 +12,5 @@ function App() {
     </div>
   )
 }
+
+export default App
