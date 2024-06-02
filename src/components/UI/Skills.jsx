@@ -11,7 +11,7 @@ export default function Skills(){
         'Express'
     ];
 
-    const listItems = skills.map(skill => <li> {skill} </li>);
+    const listItems = skills.map(skill => <li>{skill}</li>);
     return(
         <ul>{listItems}</ul>
     )
