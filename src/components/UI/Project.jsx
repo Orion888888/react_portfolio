@@ -1,11 +1,11 @@
 export default function Project(){
     const projects = [
-        {key: 'a', title: 'Cocktail Capture', image: '', github:'https://github.com/Orion888888/cocktail_capture.git', live: 'https://cocktail-capture.onrender.com/'},
-        {key: 'b', title: 'Tech Blog', image: '/assets/tech-blog.png', github:'https://github.com/Charlotte-St/tech-blog', live: 'https://tech-blog-w6cb.onrender.com/'},
-        {key: 'c', title: 'Note Taker', image: '/assets/note-taker-app.png', github:'https://github.com/Charlotte-St/note-taker', live: 'https://note-taker-g07d.onrender.com/'},
-        {key: 'd', title: 'Weather Dashboard', image: '/assets/weather-dashboard.png', github:'https://github.com/Charlotte-St/weather-dashboard', live: 'https://charlotte-st.github.io/weather-dashboard/'},
-        {key: 'e', title: 'Workday Scheduler', image: '/assets/Work Day Scheduler Screenshot.png', github:'https://github.com/Charlotte-St/work-day-scheduler', live: 'https://charlotte-st.github.io/work-day-scheduler/'},
-        {key: 'f', title: 'Timed Coding Quiz', image: '/assets/timed-coding-quiz.png', github:'https://github.com/Charlotte-St/timed-coding-quiz', live: 'https://charlotte-st.github.io/timed-coding-quiz/'}
+        {key: 'a', title: 'Cocktail Capture', image: '/assests/CocktailCapture.gif', github:'https://github.com/Orion888888/cocktail_capture.git', live: 'https://cocktail-capture.onrender.com/'},
+        {key: 'b', title: 'Coding Quiz', image: '/assets/tech-blog.png', github:'https://github.com/Orion888888/WebAPIs_coding_Quiz.git', live: 'https://orion888888.github.io/WebAPIs_coding_Quiz/'},
+        {key: 'c', title: 'Note Taker', image: '/assets/NoteTaker.gif', github:'https://github.com/Orion888888/express_notetaker.git', live: 'https://express-notetaker-zo8x.onrender.com/'},
+        {key: 'd', title: 'Weather Dashboard', image: '/assets/weather_dashboard_pic.png', github:'https://github.com/Orion888888/weather_dash.git', live: 'https://orion888888.github.io/weather_dash/'},
+        {key: 'e', title: 'Workday Scheduler', image: '/assets/workdayScheduler.png', github:'https://github.com/Orion888888/work_day_scheduler.git', live: 'https://orion888888.github.io/work_day_scheduler/'},
+        {key: 'f', title: 'Personal HTML Portfolio', image: '/assets/WebLayoutDisplay.png', github:'https://github.com/Orion888888/personal_html_portfolio.git', live: 'https://orion888888.github.io/personal_html_portfolio/'}
     ];
 
     return (
