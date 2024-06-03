@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -35,8 +36,91 @@
 
 .card {
   padding: 2em;
+  width: 60%;
+  margin: 0 auto;
 }
 
 .read-the-docs {
   color: #888;
+}
+
+body {
+  background-color: #0d0d0d; /* Dark background */
+  color: #e0e0e0; /* Light text color */
+  font-family: 'Orbitron', sans-serif; /* Futuristic font */
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #00bfff; /* Neon blue color for headings */
+}
+
+a {
+  color: #00bfff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-shadow: 0 0 5px #00bfff; /* Glow effect on hover */
+}
+
+.container-fluid {
+  padding: 20px;
+}
+
+.project-card {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.card, .project-card {
+  background: linear-gradient(145deg, #1a1a1a, #333333); /* Futuristic gradient */
+  border: 1px solid #00bfff; /* Neon blue border */
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 191, 255, 0.5); /* Glow effect */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover, .project-card:hover {
+  transform: translateY(-10px); /* Lift effect on hover */
+}
+
+.profile-image img {
+  max-width: 16%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 2px solid #00bfff; /* Neon blue border */
+  box-shadow: 0 0 10px rgba(0, 191, 255, 0.5); /* Glow effect */
+}
+
+.about-text {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 600px;
+  color: #e0e0e0;
+  background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+button {
+  background-color: #00bfff;
+  border: none;
+  padding: 10px 20px;
+  color: #0d0d0d; /* Dark text color */
+  font-family: 'Orbitron', sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #0099cc;
+  box-shadow: 0 0 10px rgba(0, 191, 255, 0.5); /* Glow effect */
 }
