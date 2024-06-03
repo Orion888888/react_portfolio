@@ -4,7 +4,7 @@ export default function AboutPage(){
       <div className="container-fluid">
           <div className="flex-row flex-wrap">
               <div className="col-3 profile-image">
-                  <img src="/src/assets/Gonzalez_Pedro.jpeg" />
+                  <img src="/assets/Gonzalez_Pedro.jpeg" />
               </div>
               <div className="col-8 about-text">
                   My name is Pedro M. Gonzalez. I am a student in the Northwestern University in a web development and coding bootcamp. I plan on continuing
